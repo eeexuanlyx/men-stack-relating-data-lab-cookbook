@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Pantry</title>
+  </head>
+  <body>
+    <h1>User Pantry</h1>
+    <ul>
+      <% pantry.forEach(food => { %>
+      <li><%= food.name %></li>
+      <% }) %>
+    </ul>
+  </body>
+</html>
